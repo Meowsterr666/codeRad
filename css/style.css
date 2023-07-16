@@ -107,7 +107,7 @@
 
 /* why-me class has a typo due to video's instructions to the code. Instructor didn't seem to notice or seemed to effect the curriculum. */
 .why-me {
-  padding: var(--size--150) 0;
+  padding: var(--size-150) 0;
 }
 
 .why-me-wrapper {
@@ -228,7 +228,7 @@ span.bg-color-6 { background-image: linear-gradient(90deg, #a1ecff 0%, #7dbcff 1
 .pricing-table {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
-  gap: var(--size-18);
+  gap: var(--size-30);
   margin: auto;
   align-items: flex-start;
 }
@@ -349,7 +349,10 @@ footer .footer-top {
   padding: var(--size-100) 0;
 }
 
-footer .footer-col { justify-self: center; }
+footer .footer-col { 
+  max-width: 250px;
+  justify-self: center; 
+}
 
 .footer-top h5 {
   color: var(--white);
